@@ -91,7 +91,7 @@ public class Client {
                 protected Void call() throws Exception {
                     try {
                         // Thực hiện kết nối đến máy chủ
-                        socket = new Socket("192.168.1.122", 8088);
+                        socket = new Socket(" 192.168.1.115", 8088);
                         in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                         out = new DataOutputStream(socket.getOutputStream());
                           // Lắng nghe dữ liệu từ máy chủ

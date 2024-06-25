@@ -51,7 +51,7 @@ public class LoginController {
     public void loginButtonOnAction(ActionEvent e) {
         Socket socket = null;
         try {
-            socket = new Socket("192.168.1.122", 8088);
+            socket = new Socket(" 192.168.1.115", 8088);
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out.println("login");
@@ -129,7 +129,7 @@ public class LoginController {
         //
         Socket socket = null; // Cập nhật địa chỉ IP và cổng của bạn
         try {
-            socket = new Socket("192.168.1.122", 8088);
+            socket = new Socket(" 192.168.1.115", 8088);
             PrintWriter out = new PrintWriter(socket.getOutputStream(),true);
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out.println("publicKey");
