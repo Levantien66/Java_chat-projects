@@ -11,14 +11,14 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Client">
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Client">
     <children>
         <BorderPane layoutY="-1.0" prefHeight="400.0" prefWidth="568.0">
             <!-- Phần trên cùng -->
             <top>
-                <AnchorPane prefHeight="30.0" prefWidth="589.0" style="-fx-background-color: #fad4ec;" BorderPane.alignment="CENTER">
+                <AnchorPane prefHeight="30.0" prefWidth="589.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
                     <!-- Các phần tử trong phần top -->
-                    <Text fill="#d92b2b" layoutX="243.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="App Chat">
+                    <Text layoutX="243.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHATCHAT">
                         <font>
                             <Font name="System Bold Italic" size="14.0" />
                         </font>
@@ -68,28 +68,19 @@
                         </Text>
                         <ImageView fitHeight="374.0" fitWidth="151.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../../../image/background.jpg" />
+                                <Image url="@../../../image/ahaha.jpg" />
                             </image>
                         </ImageView>
-                        <Label fx:id="space" layoutX="55.0" layoutY="141.0" prefHeight="30.0" prefWidth="82.0" textFill="#e43232">
+                        <Label fx:id="space" layoutX="55.0" layoutY="141.0" prefHeight="30.0" prefWidth="82.0">
                             <font>
                                 <Font name="System Bold Italic" size="20.0" />
                             </font>
                         </Label>
-                        <Text fill="#d93636" layoutX="6.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User:" wrappingWidth="45.554443359375">
+                        <Text layoutX="6.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User:" wrappingWidth="45.554443359375">
                             <font>
                                 <Font name="System Bold Italic" size="18.0" />
                             </font>
                         </Text>
-                        <ImageView fitHeight="98.0" fitWidth="117.0" layoutX="13.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
-                            <image>
-                                <Image url="@../../../image/Avata.jpg" />
-                            </image>
-                        </ImageView>
-                        <Text fill="#d92b2b" layoutX="41.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gecko :33" wrappingWidth="57.846923828125">
-                            <font>
-                                <Font name="System Bold Italic" size="12.0" />
-                            </font></Text>
 
                     </children>
                 </AnchorPane>
